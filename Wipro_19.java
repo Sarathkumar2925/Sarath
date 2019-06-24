@@ -1,19 +1,18 @@
 package wipro;
 import java.util.Scanner;
-public class Odd_even {
+public class Wipro_19 {
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
-		System.out.print("enter the number:");
+		System.out.print("Enter the divider:");
 		int a=s.nextInt();
-		if(a%2==0)
+		int i=1;
+		while(i<=5)
 		{
-				System.out.println("Even");
-		}
-		else
-		{
-				System.out.println("Odd");
+		System.out.print(a*i+" ");
+			i++;
 		}
 		s.close();
+	}
 }
 
-}
+
