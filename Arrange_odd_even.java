@@ -49,7 +49,7 @@ public class Arrange_odd_even {
 			{
 				System.out.print(even[i]+","+odd[i]+",");
 			}
-			if(even.length<even.length)
+			if(odd.length<even.length)
 			{
 				System.out.print(even[count]);
 			}
